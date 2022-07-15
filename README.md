@@ -22,8 +22,6 @@
 
 #### Finally you have gcc/clang/clang++/g++ installed in your computer/laptop, now if you didn't installed [C/C++ Extension](https://marketplace.visualstudio.com/items?itemName=ms-vscode.cpptools), you can click that to install in your vscode or just go to extensions, search 'C/C++' Select the one made by 'Microsoft' and has verification mark -> Click install and wait for it to done, this extension will help you alot in C/C++ and your OpenGL Graphics Programming
 
-#### There are already some setted up tasks for you to compile the C/C++ file faster, you can press Shift+Ctrl+B or click Terminal -> Run Build Task and select any compiler to build with(there are 2 options clang++/g++)
-
 #### If you want to compile the file with OpenGL through terminal/command prompt/powershell, you can uses one of the commands
 ### Clang++ : ```clang++ main/*.cpp src/glad.c -lopengl32 -lglfw3 -lgdi32```
 ### G++ : ```g++ -o bin/main.exe  main/*.cpp  src/glad.c -lopengl32 -lglfw3 -lgdi32``` Note: the main.exe is in the bin file of the cloned project from this repository
